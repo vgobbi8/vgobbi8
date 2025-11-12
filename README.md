@@ -1,10 +1,10 @@
 <!-- Vinícius Gobbi - GitHub Portfolio README -->
 
 <h1 align="center">👋 Hey there, I'm Vinícius Gobbi</h1>
-<h3 align="center">💻 Software Engineer | .NET | Flutter | AWS | AI Integrations</h3>
+<h3 align="center">💻 Software Engineer | .NET | Flutter | AWS | AI</h3>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=viniciusgobbi&theme=gruvbox&row=1&no-frame=true&margin-w=15" alt="trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=vgobbi&theme=gruvbox&row=1&no-frame=true&margin-w=15" alt="trophies" />
 </p>
 
 ---
@@ -31,18 +31,18 @@
 
 | 🚀 Project | 🧠 Description | 🔗 Link |
 |-------------|----------------|----------|
+| **Placas Web (App for image collection and validation)** | Flutter App integrated to Firebase, focused on image capture and validation. | *(Private)* |
 | **SharpSight (AI-Powered Image Validation)** | ASP.NET Core + Node.js microservices with AWS Rekognition & Gemini AI for vehicle inspection automation. | *(Private)* |
-| **Driving School 2.0** | Flutter + .NET Core solution for biometric validation and fraud detection aligned with DETRAN standards. | *(Private)* |
+| **Driving School** | Flutter + .NET Core solution for biometric validation and fraud detection aligned with DETRAN standards. | *(Private)* |
 | **HulPass** | QR-based ID and prepaid bracelet system integrating Firebase, Flutter, and .NET Core. | *(Private)* |
-| **Finance & Auth Microservices** | Multi-tenant finance control platform using ASP.NET Core, Node.js, and Docker Compose. | [🔗 Repo](https://github.com/viniciusgobbi/finance-microservice) |
 
 ---
 
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=viniciusgobbi&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=viniciusgobbi&theme=tokyonight&hide_border=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=vgobbi8&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=vgobbi8&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
@@ -50,16 +50,14 @@
 ### 🧭 My Philosophy
 
 > “Good software isn’t just written — it’s engineered.”
-
-> “Build systems that make people’s lives easier and businesses smarter.”
-
+> 
 ---
 
 ### 🌐 Connect with Me
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/viniciusgobbi" target="_blank"><img src="https://skillicons.dev/icons?i=linkedin" /></a>
-  <a href="mailto:vinicius.gobbi.dev@gmail.com" target="_blank"><img src="https://skillicons.dev/icons?i=gmail" /></a>
+  <a href="https://www.linkedin.com/in/vin%C3%ADcius-gobbi-20b024154/" target="_blank"><img src="https://skillicons.dev/icons?i=linkedin" /></a>
+  <a href="mailto:vgobbi.8@gmail.com" target="_blank"><img src="https://skillicons.dev/icons?i=gmail" /></a>
 </p>
 
 <p align="center">

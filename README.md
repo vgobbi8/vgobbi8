@@ -11,7 +11,7 @@
 
 ### 🧩 About Me
 
-- 🚀 **Software Engineer** passionate about scalable systems, clean architectures, and impactful tech.  
+- 🚀 **Software Engineer** passionate about scalable systems, clean architectures, and high-quality solutions.  
 - 🧠 Experienced in **.NET Core**, **Flutter**, **TypeScript**, **PostgreSQL**, and **AWS Cloud**.  
 - 🤖 Enthusiastic about **AI-driven development**, automation, and modern system design.  
 - 🌍 Focused on building an **international career** and contributing to global projects.  

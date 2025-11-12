@@ -1,2 +1,69 @@
-# vinicius_gobbi
-Portfolio of a Software Engineer specializing in backend architecture, cross-platform apps, and cloud infrastructure. Experienced in designing production-grade systems using ASP.NET Core, Flutter, and AWS.
+<!-- Vinícius Gobbi - GitHub Portfolio README -->
+
+<h1 align="center">👋 Hey there, I'm Vinícius Gobbi</h1>
+<h3 align="center">💻 Software Engineer | .NET | Flutter | AWS | AI Integrations</h3>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=viniciusgobbi&theme=gruvbox&row=1&no-frame=true&margin-w=15" alt="trophies" />
+</p>
+
+---
+
+### 🧩 About Me
+
+- 🚀 **Software Engineer** passionate about scalable systems, clean architectures, and impactful tech.  
+- 🧠 Experienced in **.NET Core**, **Flutter**, **TypeScript**, **PostgreSQL**, and **AWS Cloud**.  
+- 🤖 Enthusiastic about **AI-driven development**, automation, and modern system design.  
+- 🌍 Focused on building an **international career** and contributing to global projects.  
+- 🎸 When I’m not coding, I’m probably playing rock, exploring car tech, or learning something new.
+
+---
+
+### 🛠️ Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=cs,dotnet,flutter,dart,typescript,postgres,aws,docker,linux,git,vscode" />
+</p>
+
+---
+
+### ⚙️ Featured Projects
+
+| 🚀 Project | 🧠 Description | 🔗 Link |
+|-------------|----------------|----------|
+| **SharpSight (AI-Powered Image Validation)** | ASP.NET Core + Node.js microservices with AWS Rekognition & Gemini AI for vehicle inspection automation. | *(Private)* |
+| **Driving School 2.0** | Flutter + .NET Core solution for biometric validation and fraud detection aligned with DETRAN standards. | *(Private)* |
+| **HulPass** | QR-based ID and prepaid bracelet system integrating Firebase, Flutter, and .NET Core. | *(Private)* |
+| **Finance & Auth Microservices** | Multi-tenant finance control platform using ASP.NET Core, Node.js, and Docker Compose. | [🔗 Repo](https://github.com/viniciusgobbi/finance-microservice) |
+
+---
+
+### 📊 GitHub Stats
+
+<p align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=viniciusgobbi&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=viniciusgobbi&theme=tokyonight&hide_border=true" />
+</p>
+
+---
+
+### 🧭 My Philosophy
+
+> “Good software isn’t just written — it’s engineered.”
+
+> “Build systems that make people’s lives easier and businesses smarter.”
+
+---
+
+### 🌐 Connect with Me
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/viniciusgobbi" target="_blank"><img src="https://skillicons.dev/icons?i=linkedin" /></a>
+  <a href="mailto:vinicius.gobbi.dev@gmail.com" target="_blank"><img src="https://skillicons.dev/icons?i=gmail" /></a>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
+</p>
+
+<h3 align="center">Thanks for visiting 🚗⚡</h3>

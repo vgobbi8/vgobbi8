@@ -47,6 +47,12 @@
 
 ---
 
+<p align="center">
+  <img src="./metrics.svg" alt="metrics" width="75%"/>
+</p>
+
+---
+
 ### 🧭 My Philosophy
 
 > “Good software isn’t just written — it’s engineered.”

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -394,6 +394,29 @@
     </footer>
 
     <script>
+        // Function to detect browser language and set initial language
+        (function() {
+            const userLang = navigator.language || navigator.userLanguage; // Get browser language
+            const primaryLang = userLang.split('-')[0]; // Extract primary language code (e.g., "en" from "en-US")
+
+            let initialLang = 'en'; // Default language
+
+            if (primaryLang === 'pt') {
+                initialLang = 'pt';
+            }
+            // else if (primaryLang === 'es') {
+            //     initialLang = 'es'; // Example for another language
+            // }
+
+            // Set the lang attribute for the html tag
+            document.documentElement.lang = initialLang;
+
+            // Call the setLanguage function to update content
+            document.addEventListener('DOMContentLoaded', () => {
+                setLanguage(initialLang);
+            });
+        })();
+
         const translations = {
             en: {
                 nav_about: "_about",

@@ -9,9 +9,11 @@
 <h1 align="center">👋 Hello, I'm Vinícius Gobbi</h1>
 <h3 align="center">💻 Software Developer | .NET | Flutter | AWS | AI</h3>
 
+<!-- Service currently down
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=vgobbi8&theme=gruvbox&row=1&no-frame=true&margin-w=15" alt="trophies" />
 </p>
+-->
 
 
 ---

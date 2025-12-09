@@ -106,6 +106,8 @@
             border-radius: 6px;
             font-family: var(--font-mono);
             font-weight: 600;
+            position: relative;
+            z-index: 10;
         }
         .btn:hover { background: rgba(88, 166, 255, 0.1); }
 
@@ -240,7 +242,7 @@
         </div>
     </header>
 
-    <section class="hero">
+    <section id="about" class="hero">
         <div class="container hero-grid">
             <div class="hero-content">
                 <p class="mono text-accent" data-i18n="hero_intro">Hi, my name is</p>
@@ -385,11 +387,15 @@
         </div>
     </section>
 
-    <footer style="text-align: center; padding: 40px 0; color: #8b949e; font-size: 0.9rem;">
+    <footer id="contact" style="text-align: center; padding: 40px 0; color: #8b949e; font-size: 0.9rem;">
         <p>Built by Vinicius Gobbi. 
             <a href="https://linkedin.com/in/vinícius-gobbi-20b024154" class="text-accent">LinkedIn</a> • 
-            <a href="mailto:vgobbi.8@gmail.com" class="text-accent">Email</a> • 
-            <a href="https://wa.me/5554981379915" class="text-accent">Whatsapp</a>
+            <a href="mailto:vgobbi.8@gmail.com" class="text-accent" aria-label="Email">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            </a> • 
+            <a href="https://wa.me/5554981379915" class="text-accent" aria-label="Whatsapp">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12.04 2c-5.45 0-9.91 4.46-9.91 9.91 0 1.75.5 3.44 1.45 4.96L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.46 9.91-9.91s-4.45-9.91-9.91-9.91zm.04 1.58c4.63 0 8.38 3.75 8.38 8.38 0 4.63-3.75 8.39-8.38 8.39-1.39 0-2.73-.34-3.92-.95l-.28-.15-2.91.76.78-2.83-.16-.29c-.66-1.15-1.02-2.47-1.02-3.83 0-4.63 3.75-8.39 8.38-8.39zm-3.39 5.56c-.2-.09-.59-.29-.68-.32-.14-.05-.2-.05-.28.05-.09.11-.35.41-.43.49-.09.09-.17.1-.31.05-.14-.05-.59-.22-.74-.46-.15-.24-.08-.22-.11-.26-.03-.04-.26-.6-.35-.82-.09-.2-.08-.17-.12-.24-.03-.08-.26-.23-.5-.45-.24-.2-.17-.2-.12-.2-.03-.03.0-.05.07-.12.07-.07.31-.36.4-.55.09-.2.09-.17.07-.32-.01-.17-.05-.4-.09-.56-.03-.1-.6-.2-1.09-.59-.49-.39-.84-1.09-.91-1.24-.06-.15-.15-.13-.2-.14-.05-.01-.1-.01-.2-.01-.11 0-.21.04-.32.14-.1.09-.4.39-.4.76 0 .37.41.9.47.96.06.06.81 1.26 1.95 1.77 1.2.53 1.96.48 2.31.42.36-.06.59-.24.68-.41.09-.17.09-.32.06-.41-.03-.09-.1-.13-.2-.18z"></path></svg>
+            </a>
         </p>
     </footer>
 

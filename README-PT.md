@@ -10,7 +10,7 @@
 <h3 align="center">💻 Desenvolvedor de Software | .NET | Flutter | AWS | AI</h3>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=vgobbi&theme=gruvbox&row=1&no-frame=true&margin-w=15" alt="trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=vgobbi8&theme=gruvbox&row=1&no-frame=true&margin-w=15" alt="trophies" />
 </p>
 
 ---

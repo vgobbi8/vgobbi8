@@ -33,6 +33,7 @@
 | **SharpSight (AI-Powered Image Validation)** | ASP.NET Core + Node.js microservices with AWS Rekognition & Gemini AI for vehicle inspection automation. | *(Private)* |
 | **Driving School** | Flutter + .NET Core solution for biometric validation and fraud detection aligned with DETRAN standards. | *(Private)* |
 | **HulPass** | QR-based ID and prepaid bracelet system integrating Firebase, Flutter, and .NET Core. | *(Private)* |
+| **Sibog.IO** | A landing page for local business showing my CSS, HTML, and JS skills | *(Private)* |
 
 ---
 

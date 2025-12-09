@@ -7,7 +7,7 @@
 <!-- Vinícius Gobbi - GitHub Portfolio README -->
 
 <h1 align="center">👋 Olá, eu sou Vinícius Gobbi</h1>
-<h3 align="center">💻 Engenheiro de Software | .NET | Flutter | AWS | AI</h3>
+<h3 align="center">💻 Desenvolvedor de Software | .NET | Flutter | AWS | AI</h3>
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=vgobbi&theme=gruvbox&row=1&no-frame=true&margin-w=15" alt="trophies" />
@@ -39,8 +39,8 @@
 | **SharpSight (Validação de Imagem com IA)** | Microsserviços ASP.NET Core + Node.js com AWS Rekognition & Gemini AI para automação de inspeção veicular. | *(Privado)* |
 | **Driving School (Autoescola)** | Solução Flutter + .NET Core para validação biométrica e detecção de fraudes alinhada aos padrões do DETRAN. | *(Privado)* |
 | **HulPass** | Sistema de identidade baseada em QR e pulseira pré-paga integrando Firebase, Flutter e .NET Core. | *(Privado)* |
-| **Sibog.IO** | Uma landing page para comércio local demonstrando minhas habilidades em CSS, HTML e JS. | *(Privado)* |
-
+| **Sibog.IO** | Uma landing page para comércio local demonstrando minhas habilidades em CSS, HTML e JS. | https://github.com/Sibog-IO/landing |
+| **JV Store** | Uma landing page para comércio local demonstrando minhas habilidades em CSS, HTML e JS. | https://github.com/Sibog-IO/landing-jv-store |
 ---
 
 ### 📊 Estatísticas do GitHub

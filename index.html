@@ -33,14 +33,13 @@
         a { text-decoration: none; color: inherit; transition: 0.3s; }
         ul { list-style: none; }
 
-        /* --- Utility --- */
+
         .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
         .section-padding { padding: 80px 0; }
         .mono { font-family: var(--font-mono); }
         .text-accent { color: var(--accent-primary); }
         .text-purple { color: var(--accent-purple); }
 
-        /* --- Header --- */
         header {
             padding: 20px 0;
             position: fixed;
@@ -60,7 +59,6 @@
         .nav-links a { font-size: 0.9rem; color: var(--text-header); opacity: 0.8; }
         .nav-links a:hover { opacity: 1; color: var(--accent-primary); }
 
-        /* Language Switcher */
         .lang-switch {
             font-family: var(--font-mono);
             font-size: 0.85rem;
@@ -73,7 +71,6 @@
         .lang-btn:hover { opacity: 1; }
         .lang-btn.active { opacity: 1; color: var(--accent-primary); font-weight: bold; }
 
-        /* --- Hero with Terminal --- */
         .hero {
             min-height: 100vh;
             display: flex;
@@ -112,7 +109,6 @@
         }
         .btn:hover { background: rgba(88, 166, 255, 0.1); }
 
-        /* Fake Terminal Window */
         .terminal-window {
             background: var(--card-bg);
             border: 1px solid var(--border-color);
@@ -139,7 +135,7 @@
         .cursor { display: inline-block; width: 8px; height: 15px; background: var(--accent-secondary); animation: blink 1s infinite; }
         @keyframes blink { 50% { opacity: 0; } }
         
-        /* --- Experience Timeline --- */
+
         .timeline {
             position: relative;
             max-width: 800px;
@@ -179,7 +175,7 @@
         .timeline-role { font-size: 1.25rem; font-weight: 700; color: var(--text-header); }
         .timeline-company { font-size: 1rem; color: #8b949e; margin-bottom: 10px; }
         
-        /* --- Projects --- */
+
         .project-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -213,12 +209,11 @@
             color: #8b949e;
         }
 
-        /* --- Mobile --- */
         @media (max-width: 768px) {
             .hero-grid { grid-template-columns: 1fr; }
             .hero-content h1 { font-size: 2.5rem; }
-            .terminal-window { display: none; } /* Hide terminal on small mobile */
-            .nav-links { display: none; } /* Simple hiding for mobile demo */
+            .terminal-window { display: none; } 
+            .nav-links { display: none; } 
         }
     </style>
 </head>
@@ -332,16 +327,19 @@
                 <div class="project-card">
                     <div class="project-header">
                         <span class="folder-icon">📂</span>
+                        <a href="https://play.google.com/store/apps/details?id=br.com.ldn.ldn_fotos&hl=pt_BR" target="_blank" style="color: var(--text-header);"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a>
                     </div>
-                    <h3 class="project-title" data-i18n="proj4_title">Sibog.IO</h3>
-                    <p data-i18n="proj4_desc">A landing page for local businesses, showcasing my skills in modern web development with HTML, CSS, and JavaScript.</p>
+                    <h3 class="project-title" data-i18n="proj4_title">PlacasWeb (Image Validation App)</h3>
+                    <p data-i18n="proj4_desc">A Flutter app integrated with Firebase, designed for image capture and validation, available on Google Play Store.</p>
                     <div class="project-tech">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
-                        <span>Web Design</span>
+                        <span>Flutter</span>
+                        <span>Firebase</span>
+                        <span>Mobile</span>
+                        <span>Google Play</span>
                     </div>
                 </div>
+
+
 
             </div>
         </div>
@@ -355,6 +353,13 @@
             
             <div class="timeline">
                 
+                <div class="timeline-item">
+                    <div class="timeline-date" data-i18n="job_sibog_date">DEC 2025 - PRESENT</div>
+                    <h3 class="timeline-role" data-i18n="job_sibog_role">Founder & Software Architect</h3>
+                    <p class="timeline-company">Sibog.IO</p>
+                    <p data-i18n="job_sibog_desc">Delivering high-impact software engineering, AI integration, and cloud solutions that solve critical business challenges and drive growth.</p>
+                </div>
+
                 <div class="timeline-item">
                     <div class="timeline-date" data-i18n="job1_date">APR 2024 - PRESENT</div>
                     <h3 class="timeline-role" data-i18n="job1_role">Software Engineer & Tech Lead</h3>
@@ -389,7 +394,6 @@
     </footer>
 
     <script>
-        // Data derived from provided resumes [cite: 1, 2, 51, 52]
         const translations = {
             en: {
                 nav_about: "_about",
@@ -397,11 +401,11 @@
                 nav_exp: "_experience",
                 nav_contact: "_contact",
                 hero_intro: "Hi, my name is",
-                hero_subtitle: "I build scalable Mobile & AI Solutions.",
-                hero_desc: "Software Developer based in Brazil with 6+ years of experience. I specialize in bridging the gap between complex backend systems and intuitive mobile applications.",
+                hero_subtitle: "I use technology to solve real-world problems.",
+                hero_desc: "Software Developer based in Brazil with 6+ years of experience. I focus on developing backend systems, integrating them with intuitive mobile applications, and embedding AI for improved efficiency and intelligent solutions.",
                 btn_contact: "Get In Touch",
                 
-                // Terminal JSON content (kept mostly English as it simulates code, but 'focus' changes)
+
                 term_focus: "Coding and Solving Real-World Problems",
                 term_status: "Building multimodal AI pipelines with Docker + RabbitMQ + NodeJS + ASP.NET Core ...",
 
@@ -410,13 +414,16 @@
                 proj1_desc: "Designed multimodal AI pipelines using Google Gemini, AWS Rekognition, and PlateRecognizer to prevent fraud. Processes image validations for 100,000+ monthly vehicle registrations.",
                 proj2_title: "QR Safety & Payment App",
                 proj2_desc: "A mobile application integrating QR-embedded wristbands for family safety and payments. Includes 'Lost & Found' features and Asaas gateway integration.",
-                proj3_title: "Enterprise ERP & Mobile POS",
-                proj3_desc: "Led development of ERP systems and native Android apps for retail automation. Implemented TEF integration and e-commerce sync (WooCommerce/Tray).",
+                proj3_title: "Enterprise ERP & Stock Management",
+                proj3_desc: "Played a crucial role in the team, contributing significantly to the development of ERP systems and an app for stock management and transfers between company branches. Implemented TEF, NF-e, and NFS-e integrations, and e-commerce sync (WooCommerce/Tray).",
 
-                proj4_title: "Sibog.IO",
-                proj4_desc: "My personal business where I develop software, integrate AI, and create cloud solutions.",
+                proj4_title: "PlacasWeb (Image Validation App)",
+                proj4_desc: "A Flutter app integrated with Firebase, focused on AI-powered image capture and validation, available on Google Play Store.",
 
                 section_exp: "Experience",
+                job_sibog_date: "DEC 2025 - PRESENT",
+                job_sibog_role: "Founder & Technologic Solutions Developer",
+                job_sibog_desc: "Delivering high-impact software engineering, AI integration, and cloud solutions that solve critical business challenges and drive growth.",
                 job1_date: "APR 2024 - DEC 2025",
                 job1_role: "Software Developer & Tech Lead",
                 job1_desc: "Leading mobile app development and AI integration. Mentoring junior developers on C#, SOLID, and DDD. Deployed microservices with Docker and RabbitMQ.",
@@ -433,11 +440,10 @@
                 nav_exp: "_experiência",
                 nav_contact: "_contato",
                 hero_intro: "Olá, meu nome é",
-                hero_subtitle: "Crio Soluções Móveis e de IA Escaláveis.",
-                hero_desc: "Desenvolvedor de Software no Brasil com +6 anos de experiência. Especialista em conectar sistemas backend complexos a aplicações móveis intuitivas.",
+                hero_subtitle: "Uso a tecnologia para resolver problemas do mundo real.",
+                hero_desc: "Desenvolvedor de Software no Brasil com +6 anos de experiência. Foco em desenvolver sistemas backend, integrá-los com aplicações móveis intuitivas e incorporar IA para maior eficiência e soluções inteligentes.",
                 btn_contact: "Entre em Contato",
 
-                // Terminal JSON content
                 term_focus: "Codificação e Resolução de Problemas do Mundo Real",
                 term_status: "Construindo pipelines de IA multimodal com Docker + RabbitMQ + NodeJS + ASP.NET Core ...",
 
@@ -446,14 +452,17 @@
                 proj1_desc: "Projetei pipelines de IA multimodal usando Google Gemini, AWS Rekognition e PlateRecognizer para prevenção de fraudes. Processa +100.000 validações mensais de fotos para emplacamentos.",
                 proj2_title: "App de Segurança e Pagamento QR",
                 proj2_desc: "Aplicativo móvel integrando pulseiras QR para segurança familiar e pagamentos. Inclui recursos de 'Achados e Perdidos' e integração com gateway Asaas.",
-                proj3_title: "ERP Empresarial e PDV Móvel",
-                proj3_desc: "Liderei o desenvolvimento de sistemas ERP e apps Android nativos para automação comercial. Implementei integração TEF e sincronização com e-commerces.",
+                proj3_title: "ERP Empresarial e Gestão de Estoque",
+                proj3_desc: "Atuei em um papel crucial na equipe, contribuindo significativamente para o desenvolvimento de sistemas ERP e um app para gestão de estoque e transferências entre filiais da empresa. Implementei integrações TEF, NF-e e NFS-e, e sincronização com e-commerces.",
 
-                proj4_title: "Sibog.IO",
-                proj4_desc: "Meu negócio pessoal onde desenvolvo softwares, integro IA e crio soluções em nuvem.",
+                proj4_title: "PlacasWeb (App de Validação de Imagens)",
+                proj4_desc: "Um aplicativo Flutter integrado ao Firebase, focado na captura e validação de imagens com IA, disponível na Google Play Store.",
 
                 section_exp: "Experiência",
-                job1_date: "ABR 2024 - PRESENTE",
+                job_sibog_date: "DEZ 2025 - PRESENTE",
+                job_sibog_role: "Fundador & Desenvolvedor de Soluções Tecnológicas",
+                job_sibog_desc: "Entregando engenharia de software de alto impacto, integração de IA e soluções em nuvem que resolvem desafios críticos de negócios e impulsionam o crescimento.",
+                job1_date: "ABR 2024 - DEC 2025",
                 job1_role: "Desenvolvedor de Software & Tech Lead",
                 job1_desc: "Liderando desenvolvimento mobile e integração de IA. Mentoria de devs júnior em C#, SOLID e DDD. Deploy de microsserviços com Docker e RabbitMQ.",
                 job2_date: "JAN 2020 - ABR 2024",
@@ -466,11 +475,10 @@
         };
 
         function setLanguage(lang) {
-            // Update Buttons
+
             document.getElementById('btn-en').classList.toggle('active', lang === 'en');
             document.getElementById('btn-pt').classList.toggle('active', lang === 'pt');
 
-            // Update Standard Text Elements
             document.querySelectorAll('[data-i18n]').forEach(el => {
                 const key = el.getAttribute('data-i18n');
                 if (translations[lang][key]) {
@@ -478,14 +486,11 @@
                 }
             });
 
-            // Update Terminal Specific Content (Simulating Code)
             const termStatus = document.getElementById('terminal-status');
             const termJson = document.getElementById('terminal-json');
             
             termStatus.innerText = translations[lang].term_status;
             
-            // Re-render JSON object with translated "focus" value
-            // Note: Keys remain in English to maintain "Code" aesthetic
             termJson.innerHTML = `{
   "core": ["C#", ".NET", "Flutter", "Kotlin"],
   "ai": ["Google Gemini", "OpenCV", "Python"],
